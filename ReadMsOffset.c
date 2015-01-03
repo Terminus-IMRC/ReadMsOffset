@@ -11,7 +11,9 @@
 #include <fcntl.h>
 #include <errno.h>
 
+#ifndef MSFILE
 #define MSFILE "ms5saf.txt"
+#endif /* MSFILE */
 #define X 5
 #define CHARSPERLINE (1*9+2*16+1*24+1)
 
